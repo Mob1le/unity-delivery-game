@@ -37,5 +37,3 @@
 | **\#4** |  *Make overlay, make logic for provisions and health bar*  |  *03/22*  |
 | **\#5** |  *Make story of reaching town (idc)*  |  *04/18*  |
 
-# **Project Sketch**
-
