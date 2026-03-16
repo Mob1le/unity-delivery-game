@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class MoveDown : MonoBehaviour
 {
-    public float speed = 1f;
-    private float zBounds = -30f;
+    public float speed = 200.0f;
+    private float zBounds = -30.0f;
     private Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

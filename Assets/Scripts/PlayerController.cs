@@ -2,7 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 10.0f;
+    private float speed = 100.0f;
     private Rigidbody playerRb;
     private float zBounds = 7.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,6 +38,22 @@ public class PlayerController : MonoBehaviour
         else if (transform.position.z < -zBounds)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, -zBounds);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Powerup"))
+        {
+            Destroy(other.gameObject);
         }
     }
 }
