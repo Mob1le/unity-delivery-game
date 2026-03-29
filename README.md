@@ -24,7 +24,7 @@
 | :---- | :---- | :---- | :---- | :---- |
 |  |  | At the start of the game, the title *Main menu* will appear  |  | and the game will end when *Reach the town*  |
 
-| 6 Other Features |  |  WIP  |  |
+| 6 Other Features |  |  Feature 1. Player can upgrade his skills on villages ( improve max weight, speed, discover other skills like jump or strafe which help for avoid enemies  |  |
 | :---- | :---- | :---- | ----- |
 
 # **Project Timeline**
